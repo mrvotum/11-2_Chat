@@ -1,0 +1,75 @@
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+span {
+  display: block;
+  box-sizing: border-box;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.chat {
+  position: relative;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+.usersList {
+  position: absolute;
+  left: -65px;
+  border: 1px solid black;
+  border-right-color: transparent;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 10px;
+}
+
+.userLi:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.nameAndDate {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: rgb(116, 116, 116);
+}
+
+.You {
+  text-align: right;
+}
+
+.red, .You > .nameAndDate {
+  color: rgb(241, 109, 0);
+}
+
+.messageBlock:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.textarea{
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+
+.createNickName {
+  position: fixed;
+  margin-left: auto;
+  margin-top: 30vh;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+}
